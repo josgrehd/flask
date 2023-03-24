@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-swagger = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+flask-cors = "*"
+gunicorn = "*"
+cloudinary = "*"
+flask-admin = "*"
+typing-extensions = "*"
+datetime = "*"
+flask-jwt-extended = "*"
+flask-socketio = "*"
+eventlet = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
